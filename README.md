@@ -11,7 +11,7 @@ y abrir la url
 
 en ese link se encuentra la pagina de visualizacion de los endpoints, desde ahi se pueden probar el endpoint que muestra todos los numeros y el endpoint que extrae un numero del conjunto de numeros 
 
-![swagger](https://raw.githubusercontent.com/okadath/prueba-parte-2/refs/heads/master/swagg.png)
+![swagger](https://raw.githubusercontent.com/okadath/prueba-parte-2/refs/heads/master/swagger.png)
 
 
 ## parte 2
