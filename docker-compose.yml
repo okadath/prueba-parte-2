@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: django_app2
+    tty: true
+    stdin_open: true
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DJANGO_SETTINGS_MODULE=examen.settings
+    networks:
+      - app_network
+ 
+
+volumes:
+  app_data:
+
+networks:
+  app_network:
+    driver: bridge
